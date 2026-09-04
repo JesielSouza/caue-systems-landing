@@ -1,4 +1,4 @@
-﻿# 🎨 Carrossel 01 — "Por que seu site demora 8 segundos para abrir?"
+# 🎨 Carrossel 01 — "Por que seu site demora 8 segundos para abrir?"
 ## Especificação Visual Completa & Texto Slide a Slide (Padrão Cauê Systems)
 
 > **Paleta Visual:** Fundo `#0F1411` (Deep Obsidian Emerald), Tipografia títulos em Branco `#F8FAFC`, Destaques em Ouro `#E29F38` e Esmeralda `#10B981`.
@@ -88,4 +88,4 @@
 * **Título (Grande):** Quer saber a velocidade real do seu site hoje?
 * **Texto:** Mande o link da sua empresa no nosso Direct ou WhatsApp.
 * **Oferta:** Faremos uma **Auditoria Técnica Gratuita de 2 minutos** com as métricas oficiais do Google para você ver onde está perdendo clientes.
-* **Link:** cauesystems.vercel.app | (92) 98501-4392
+* **Link:** cauesystems.vercel.app | (92) 98103-8799

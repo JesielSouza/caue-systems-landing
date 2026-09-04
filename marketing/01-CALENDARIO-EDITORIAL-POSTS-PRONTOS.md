@@ -1,4 +1,4 @@
-﻿# 📱 Acervo de Conteúdo Pronto — Cauê Systems
+# 📱 Acervo de Conteúdo Pronto — Cauê Systems
 
 > **Instruções:** Todos os textos abaixo estão 100% redigidos e revisados. Basta copiar, colar nas suas redes (LinkedIn de Jesiel Souza e Instagram da Cauê Systems) e publicar.
 
@@ -299,7 +299,7 @@ Não acreditamos em soluções genéricas nem em templates que parecem feitos h�
 Se você quer que a presença digital da sua empresa esteja no mesmo patamar de excelência dos seus projetos, fale com a gente.
 
 🌐 Acesse nossa vitrine: `cauesystems.vercel.app`  
-💬 WhatsApp Direto: (92) 98501-4392
+💬 WhatsApp Direto: (92) 98103-8799
 
 #CauêSystems #EngenhariaDeSoftware #VitrinesDigitais #ManausTechStudio
 
@@ -397,7 +397,7 @@ Se você quer que a presença digital da sua empresa esteja no mesmo patamar de 
 * **Slide 8 (CTA Final):**
   * *Título:* Eleve o padrão da sua presença digital em 48h
   * *Texto:* Deixe de lado os links genéricos. Tenha uma vitrine com seu nome, domínio próprio e design sofisticado.
-  * *Chame no WhatsApp:* (92) 98501-4392 ou mande mensagem no direct.
+  * *Chame no WhatsApp:* (92) 98103-8799 ou mande mensagem no direct.
 
 ---
 

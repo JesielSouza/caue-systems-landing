@@ -36,7 +36,7 @@
 7. **Sobre Jesiel Souza:**
    - Perfil factual com histórico em CCO, monitoramento crítico, redes, CFTV e engenharia fullstack.
 8. **Simulador de Briefing Interativo (WhatsApp Generator):**
-   - O cliente configura o tipo de projeto, prazo, recursos desejados e gera a mensagem estruturada com disparo de confetes diretamente para o WhatsApp de Jesiel (`(92) 98501-4392`).
+   - O cliente configura o tipo de projeto, prazo, recursos desejados e gera a mensagem estruturada com disparo de confetes diretamente para o WhatsApp de Jesiel (`(92) 98103-8799`).
 9. **FAQ Interativo:**
    - Accordion expansível em Framer Motion respondendo às principais dúvidas.
 10. **CTA Final, Footer & Botão Flutuante do WhatsApp:**

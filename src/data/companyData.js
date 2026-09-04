@@ -6,8 +6,8 @@ export const companyData = {
   foundedBy: "Jesiel Souza",
   status: "Operacional & Aceitando Novos Projetos",
   contact: {
-    phone: "(92) 98501-4392",
-    whatsappClean: "5592985014392",
+    phone: "(92) 98103-8799",
+    whatsappClean: "5592981038799",
     email: "jesielcosta13@gmail.com",
     github: "https://github.com/JesielSouza",
     linkedin: "https://www.linkedin.com/in/jesiel-souza-71b837155",
