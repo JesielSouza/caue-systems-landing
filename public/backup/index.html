@@ -27,7 +27,7 @@
     </header>
 
     <main id="conteudo" class="wrap">
-      <p class="badge">Em implantação</p>
+      <p class="badge">Uso interno</p>
       <h1>Cauê Backup VPS</h1>
       <p class="lead">
         Ferramenta interna da Cauê Systems para gerar cópias de segurança e permitir a restauração
@@ -46,35 +46,22 @@
 
       <h2>Situação atual</h2>
       <ul>
-        <li>O aplicativo está em implantação.</li>
-        <li>
-          Até agora foi validada apenas uma cópia cifrada local, feita com a ferramenta
-          <code>restic</code>, usando somente dados fictícios de teste.
-        </li>
-        <li>
-          A ligação com o Google Drive ainda não está ativa: não há destino configurado,
-          nenhum envio de arquivos e nenhuma rotina automática em execução.
-        </li>
-        <li>O primeiro teste com o Google Drive também usará apenas dados fictícios.</li>
+        <li>A conexão com o Google Drive foi autorizada pelo operador.</li>
+        <li>Testes com dados fictícios confirmaram cópias cifradas e restauração, inclusive após download pelo site do Drive.</li>
+        <li>As cópias são limitadas ao conjunto selecionado pelo operador. A implantação dos serviços empresariais na VPS continua em curso.</li>
       </ul>
 
-      <h2>Uso do Google Drive (planejamento futuro)</h2>
-      <div class="note">
-        <p>
-          <strong>Planejamento futuro:</strong> o que segue descreve como o aplicativo deverá funcionar
-          quando a integração estiver ativa. Ainda não está em operação.
-        </p>
-      </div>
+      <h2>Uso do Google Drive</h2>
       <ul>
         <li>
-          O aplicativo pedirá apenas o escopo <code>drive.file</code> do Google Drive. Com ele, o aplicativo só
+          O aplicativo usa apenas o escopo <code>drive.file</code> do Google Drive. Com ele, o aplicativo só
           consegue acessar arquivos que ele mesmo criou ou que o operador autorizou explicitamente para ele.
         </li>
         <li>
           O aplicativo não acessa o Drive inteiro, nem Gmail, agenda, contatos ou outros serviços do Google.
         </li>
         <li>
-          As cópias enviadas ao Drive serão arquivos cifrados antes do envio, gerados pelo próprio operador.
+          As cópias enviadas ao Drive são arquivos cifrados antes do envio, gerados pelo próprio operador.
         </li>
         <li>
           A autorização de acesso ao Google fica sob controle do operador e pode ser revogada a qualquer momento
