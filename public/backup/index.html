@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cauê Backup VPS | Cauê Systems</title>
+    <meta name="description" content="Apresentação do Cauê Backup VPS, ferramenta interna da Cauê Systems para cópias de segurança e restauração, em implantação." />
+    <link rel="canonical" href="https://cauesystems.vercel.app/backup" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#0F1411" />
+    <link rel="stylesheet" href="/backup/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">CAUÊ<span>SYSTEMS</span></a>
+        <nav class="site-nav" aria-label="Cauê Backup VPS">
+          <ul>
+            <li><a href="/backup" aria-current="page">Apresentação</a></li>
+            <li><a href="/backup/privacidade">Privacidade</a></li>
+            <li><a href="/backup/termos">Termos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo" class="wrap">
+      <p class="badge">Em implantação</p>
+      <h1>Cauê Backup VPS</h1>
+      <p class="lead">
+        Ferramenta interna da Cauê Systems para gerar cópias de segurança e permitir a restauração
+        de dados operados pela própria empresa.
+      </p>
+
+      <h2>O que é</h2>
+      <p>
+        O Cauê Backup VPS é um aplicativo de uso interno, operado por Jesiel Da Costa Souza
+        (Cauê Systems). Não é um produto oferecido ao público nem um serviço contratável:
+        quem o utiliza é o próprio operador, sobre dados sob sua responsabilidade.
+      </p>
+      <p>
+        A finalidade é manter cópias de segurança cifradas e conseguir restaurá-las quando necessário.
+      </p>
+
+      <h2>Situação atual</h2>
+      <ul>
+        <li>O aplicativo está em implantação.</li>
+        <li>
+          Até agora foi validada apenas uma cópia cifrada local, feita com a ferramenta
+          <code>restic</code>, usando somente dados fictícios de teste.
+        </li>
+        <li>
+          A ligação com o Google Drive ainda não está ativa: não há destino configurado,
+          nenhum envio de arquivos e nenhuma rotina automática em execução.
+        </li>
+        <li>O primeiro teste com o Google Drive também usará apenas dados fictícios.</li>
+      </ul>
+
+      <h2>Uso do Google Drive (planejamento futuro)</h2>
+      <div class="note">
+        <p>
+          <strong>Planejamento futuro:</strong> o que segue descreve como o aplicativo deverá funcionar
+          quando a integração estiver ativa. Ainda não está em operação.
+        </p>
+      </div>
+      <ul>
+        <li>
+          O aplicativo pedirá apenas o escopo <code>drive.file</code> do Google Drive. Com ele, o aplicativo só
+          consegue acessar arquivos que ele mesmo criou ou que o operador autorizou explicitamente para ele.
+        </li>
+        <li>
+          O aplicativo não acessa o Drive inteiro, nem Gmail, agenda, contatos ou outros serviços do Google.
+        </li>
+        <li>
+          As cópias enviadas ao Drive serão arquivos cifrados antes do envio, gerados pelo próprio operador.
+        </li>
+        <li>
+          A autorização de acesso ao Google fica sob controle do operador e pode ser revogada a qualquer momento
+          nas configurações da conta Google.
+        </li>
+      </ul>
+
+      <h2>O que este site não faz</h2>
+      <p>
+        Estas páginas são apenas informativas. Elas não pedem login, não recebem arquivos, não coletam
+        tokens, senhas ou credenciais e não possuem formulários nem ferramentas de análise de navegação.
+      </p>
+
+      <h2>Documentos</h2>
+      <ul class="cards">
+        <li>
+          <a href="/backup/privacidade">Política de privacidade</a>
+          <p>Quais dados o aplicativo acessa, como usa, armazena e compartilha.</p>
+        </li>
+        <li>
+          <a href="/backup/termos">Termos de uso</a>
+          <p>Condições de uso desta ferramenta interna.</p>
+        </li>
+      </ul>
+
+      <h2>Contato</h2>
+      <p>
+        Dúvidas sobre o Cauê Backup VPS:
+        <a href="mailto:cauesystems@gmail.com">cauesystems@gmail.com</a>.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Cauê Backup VPS — ferramenta interna da Cauê Systems, Manaus, Amazonas, Brasil.</p>
+        <p><a href="/">Voltar ao site da Cauê Systems</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

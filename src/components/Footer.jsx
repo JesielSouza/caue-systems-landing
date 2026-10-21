@@ -31,6 +31,8 @@ export const Footer = () => {
         {/* Copyright */}
         <p className="text-[11px] text-[#6F857A]">
           2025 / 2026 Cauê Systems / Jesiel Da Costa Souza
+          <span className="mx-1.5">/</span>
+          <a href="/backup" className="hover:underline hover:text-[#C68A2B]">Cauê Backup VPS</a>
         </p>
 
       </div>
